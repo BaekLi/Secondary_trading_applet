@@ -1,0 +1,18 @@
+<!--miniprogram/pages/message/message.wxml-->
+<view class="container">
+
+
+  
+  
+  <view class="bottom_box" wx:for="{{roomlist}}">
+  <view class="bottom_card" bindtap="go" data-id="{{item.roomid}}">
+    <view class="bottom_1">
+      <image src="{{item.image}}"></image>
+      <view>{{item.cha}}{{item.name}}</view>
+    </view>
+    <view class="time">{{item.time}}</view>
+  </view>
+  </view> 
+  
+  
+</view>
