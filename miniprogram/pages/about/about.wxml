@@ -1,0 +1,10 @@
+<view class="contain">
+      <view class="title">程序简介</view>
+      <view class="description">
+            <text space="emsp" decode="{{ true }}">{{des}}</text>
+      </view>
+      <view class="title">联系方式</view>
+      <view class="description">
+            <text space="emsp" decode="{{ true }}">{{con}}</text>
+      </view>
+</view>
