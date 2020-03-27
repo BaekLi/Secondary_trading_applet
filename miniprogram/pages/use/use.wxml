@@ -1,0 +1,6 @@
+<view class="contain">
+      <view class="title">用户使用手册</view>
+      <view class="description">
+            <text space="emsp" decode="{{ true }}">{{des}}</text>
+      </view>
+</view>

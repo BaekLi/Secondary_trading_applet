@@ -1,0 +1,39 @@
+page {
+      background: #eee;
+}
+
+.contain {
+      width: 100%;
+      background: #eee;
+      display: flex;
+      flex-direction: column;
+      padding: 0 20rpx;
+      box-sizing: border-box;
+}
+
+.title {
+      margin-top: 20rpx;
+      line-height: 56rpx;
+      padding-left: 20rpx;
+      font-size: 32rpx;
+      letter-spacing: 3rpx;
+      color: #000;
+}
+
+.description {
+      width: 100%;
+      padding: 24rpx 30rpx;
+      background: #fff;
+      border-radius: 10rpx;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+}
+
+.description text {
+      width: 100%;
+      font-size: 28rpx;
+      line-height: 44rpx;
+      letter-spacing: 3rpx;
+}
+
