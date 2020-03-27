@@ -1,0 +1,21 @@
+<view class="contain">
+      <view style="height:20rpx;"></view>
+      <!--顶部图-->
+      <image src="{{banner}}" class="slide-image" />
+      <!--QQ联系-->
+      <view class="card" bindtap="copy" data-copy="{{qq}}" data-name="QQ">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/qq.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">QQ群联系</view>
+                  <view class="des">点击即可复制客服QQ</view>
+            </view>
+            <view class="rightico">
+                  <image class="rightimg" src="/images/right.png" />
+            </view>
+      </view>
+</view>
