@@ -1,0 +1,64 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/order/list/list",
+    "pages/kefu/kefu",
+    "pages/about/about",
+    "pages/sell/list/list",
+    "pages/search/search",
+    "pages/edit/edit",
+    "pages/web/web",
+    "pages/message/message",
+    "pages/detail/room/room",
+    "pages/use/use",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundColor": "#019f46",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#019f46",
+    "navigationBarTitleText": "浙师大二手交易平台",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tabbar/home.png",
+        "selectedIconPath": "/images/tabbar/home_on.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/images/tabbar/publish.png",
+        "selectedIconPath": "/images/tabbar/publish_on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabbar/my.png",
+        "selectedIconPath": "/images/tabbar/my_on.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-steps": "vant/steps/index",
+    "van-transition": "vant/transition/index",
+    "van-stepper": "vant/stepper/index",
+    "van-action-sheet": "vant/action-sheet/index",
+    "van-popup": "vant/popup/index",
+    "canvasdrawer": "/components/canvasdrawer/canvasdrawer",
+    "tips": "components/add_tips/index",
+    "van-dialog": "vant/dialog/index"
+  }
+}
