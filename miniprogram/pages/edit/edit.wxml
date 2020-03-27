@@ -1,0 +1,27 @@
+<view class="top-bg"></view>
+<view class="contain">
+      <view class="card">
+            <view class="title">修改资料</view>
+            <picker bindchange="choose" value="{{ids}}" range="{{campus}}" range-key="name">
+                  <view class="campus">
+                        <block wx:if="{{ids!==-1}}">当前选择：{{campus[ids].name}}</block>
+                        <block wx:if="{{ids==-1}}">请选择您所在校区</block>
+                        <image class="right" src="/images/right.png" />
+                  </view>
+            </picker>
+            <view class="contact">
+                  <input bindinput="xhInput" value="{{xhnum}}" maxlength="30" placeholder-class="pache" placeholder="输入您的学号" />
+            </view>
+            <view class="contact">
+                  <input bindinput="zyInput" value="{{zyname}}" maxlength="30" placeholder-class="pache" placeholder="输入您的专业" />
+            </view>
+      </view>
+      <!--底部确认-->
+      <button class="confirm" open-type='getUserInfo' bindgetuserinfo="getUserInfo">提交修改</button>
+      <view class="shen_title">
+            <image class="about" src="/images/about.png" />使用申明
+      </view>
+      <view class="des">1. 在未经您同意及确认之前，本程序不会将您的注册信息用于任何其它商业目的。</view>
+      <view class="des">2. 本程序将对您所提供的资料进行严格的管理及保护，本程序将使用相应的技术，防止您的个人资料丢失、被盗用或遭篡改。</view>
+      <view class="des">3. 请您放心使用！</view>
+</view>
